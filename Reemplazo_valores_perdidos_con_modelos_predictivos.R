@@ -16,7 +16,7 @@ imputar_datos<-mice(casas_boston_perdidos[,names(casas_boston_perdidos) %in% col
 
 #Nos devuelve m*maxit número de elementos
 
-# A mayor número de muestas disminuimos el error 
+#A mayor número de muestas disminuimos el error 
 
 #Existen más metodos, "pmm" = comparación predicitiva de medias
 #Regresión logística, "logreg" Necesita un factor con dos niveles (variable a predecir los NAN)
